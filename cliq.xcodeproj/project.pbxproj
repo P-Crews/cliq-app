@@ -7,15 +7,59 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0F156BD61EEB0DD90034C1C9 /* fade.gif in Resources */ = {isa = PBXBuildFile; fileRef = 0F156BD51EEB0DD90034C1C9 /* fade.gif */; };
+		0F156BD81EEB0F630034C1C9 /* fade2.gif in Resources */ = {isa = PBXBuildFile; fileRef = 0F156BD71EEB0F630034C1C9 /* fade2.gif */; };
+		0F15A08B1ED4D31400BEF5A2 /* GetsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F15A08A1ED4D31400BEF5A2 /* GetsViewController.swift */; };
+		0F18D8C71EBD0A1200C23916 /* States.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F18D8C61EBD0A1200C23916 /* States.swift */; };
+		0F18E2451EDF445200FD204B /* We2.gif in Resources */ = {isa = PBXBuildFile; fileRef = 0F18E2431EDF445200FD204B /* We2.gif */; };
+		0F1CE2CB1ED8CB4700BD29E1 /* Webp.net-resizeimage.gif in Resources */ = {isa = PBXBuildFile; fileRef = 0F1CE2CA1ED8CB4700BD29E1 /* Webp.net-resizeimage.gif */; };
+		0F1CE2CD1ED8CDFD00BD29E1 /* ezgif-2-2a2771c771.gif in Resources */ = {isa = PBXBuildFile; fileRef = 0F1CE2CC1ED8CDFD00BD29E1 /* ezgif-2-2a2771c771.gif */; };
+		0F1D78741ECCDED600DE19D2 /* UserInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F1D78731ECCDED600DE19D2 /* UserInfoViewController.swift */; };
 		0F1E82581EBB632C008EA8EA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F1E82571EBB632C008EA8EA /* AppDelegate.swift */; };
 		0F1E825A1EBB632C008EA8EA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F1E82591EBB632C008EA8EA /* ViewController.swift */; };
 		0F1E825D1EBB632C008EA8EA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F1E825B1EBB632C008EA8EA /* Main.storyboard */; };
 		0F1E82601EBB632C008EA8EA /* cliq.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0F1E825E1EBB632C008EA8EA /* cliq.xcdatamodeld */; };
 		0F1E82621EBB632C008EA8EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0F1E82611EBB632C008EA8EA /* Assets.xcassets */; };
 		0F1E82651EBB632C008EA8EA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F1E82631EBB632C008EA8EA /* LaunchScreen.storyboard */; };
+		0F1E826D1EBB69A1008EA8EA /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F1E826C1EBB69A1008EA8EA /* HomeViewController.swift */; };
+		0F1E826F1EBB6D5A008EA8EA /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0F1E826E1EBB6D5A008EA8EA /* GoogleService-Info.plist */; };
+		0F1E82711EBB7473008EA8EA /* NewUserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F1E82701EBB7473008EA8EA /* NewUserViewController.swift */; };
+		0F1E82731EBB7CFD008EA8EA /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F1E82721EBB7CFD008EA8EA /* User.swift */; };
+		0F21234C1EDCDF7A00DE5E81 /* MessagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F21234B1EDCDF7A00DE5E81 /* MessagesViewController.swift */; };
+		0F2956151EBCB3DE0079CF2B /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F2956141EBCB3DE0079CF2B /* SearchViewController.swift */; };
+		0F2E3F4C1ED339840040A9CA /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F2E3F4B1ED339840040A9CA /* FBSDKLoginKit.framework */; };
+		0F370A6F1EF9629600171277 /* blackback.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0F370A6E1EF9629600171277 /* blackback.jpg */; };
+		0F370A751EF9AAC300171277 /* 001-social-media.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F370A701EF9AAC300171277 /* 001-social-media.png */; };
+		0F370A761EF9AAC300171277 /* 002-user.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F370A711EF9AAC300171277 /* 002-user.png */; };
+		0F370A771EF9AAC300171277 /* 003-soundcloud.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F370A721EF9AAC300171277 /* 003-soundcloud.png */; };
+		0F370A781EF9AAC300171277 /* 004-facebook.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F370A731EF9AAC300171277 /* 004-facebook.png */; };
+		0F370A791EF9AAC300171277 /* 005-google-plus.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F370A741EF9AAC300171277 /* 005-google-plus.png */; };
+		0F370A7B1EF9AC0200171277 /* map.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F370A7A1EF9AC0200171277 /* map.swift */; };
+		0F370A7D1EF9ACF900171277 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F370A7C1EF9ACF900171277 /* MapKit.framework */; };
+		0F3C3F811ECA90F400F38F41 /* person.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F3C3F801ECA90F400F38F41 /* person.png */; };
+		0F3C3F871ECA91E400F38F41 /* person30.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F3C3F861ECA91E400F38F41 /* person30.png */; };
+		0F4BBDD41EC9F56900E27044 /* UserMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F4BBDD31EC9F56900E27044 /* UserMessage.swift */; };
+		0F4F1E491EFD68BB001E0233 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F4F1E481EFD68BB001E0233 /* MapViewController.swift */; };
+		0F7821E81ED77A3B00FDE72C /* crowd.gif in Resources */ = {isa = PBXBuildFile; fileRef = 0F7821E71ED77A3B00FDE72C /* crowd.gif */; };
+		0F8E6E761EE9F24C0091A85C /* email.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F8E6E731EE9F24C0091A85C /* email.png */; };
+		0F8E6E771EE9F24C0091A85C /* fb.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F8E6E741EE9F24C0091A85C /* fb.png */; };
+		0F8E6E781EE9F24C0091A85C /* google.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F8E6E751EE9F24C0091A85C /* google.png */; };
+		0F8E6E7A1EE9F5C40091A85C /* street.gif in Resources */ = {isa = PBXBuildFile; fileRef = 0F8E6E791EE9F5C40091A85C /* street.gif */; };
+		0FAF67AF1F011F1500D79993 /* Artist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FAF67AE1F011F1500D79993 /* Artist.swift */; };
+		0FDA40271EDDFC130090B67E /* SelectedMessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FDA40261EDDFC130090B67E /* SelectedMessageViewController.swift */; };
+		0FDA40291EDE4BE20090B67E /* ReplyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FDA40281EDE4BE20090B67E /* ReplyViewController.swift */; };
+		5A3384DE60395FCAA258F578 /* Pods_cliq.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF849CB98B38501FB68809E9 /* Pods_cliq.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0F156BD51EEB0DD90034C1C9 /* fade.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = fade.gif; sourceTree = "<group>"; };
+		0F156BD71EEB0F630034C1C9 /* fade2.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = fade2.gif; sourceTree = "<group>"; };
+		0F15A08A1ED4D31400BEF5A2 /* GetsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetsViewController.swift; sourceTree = "<group>"; };
+		0F18D8C61EBD0A1200C23916 /* States.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = States.swift; sourceTree = "<group>"; };
+		0F18E2431EDF445200FD204B /* We2.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = We2.gif; sourceTree = "<group>"; };
+		0F1CE2CA1ED8CB4700BD29E1 /* Webp.net-resizeimage.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "Webp.net-resizeimage.gif"; sourceTree = "<group>"; };
+		0F1CE2CC1ED8CDFD00BD29E1 /* ezgif-2-2a2771c771.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "ezgif-2-2a2771c771.gif"; sourceTree = "<group>"; };
+		0F1D78731ECCDED600DE19D2 /* UserInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserInfoViewController.swift; sourceTree = "<group>"; };
 		0F1E82541EBB632C008EA8EA /* cliq.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cliq.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F1E82571EBB632C008EA8EA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0F1E82591EBB632C008EA8EA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +68,36 @@
 		0F1E82611EBB632C008EA8EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0F1E82641EBB632C008EA8EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0F1E82661EBB632C008EA8EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0F1E826C1EBB69A1008EA8EA /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		0F1E826E1EBB6D5A008EA8EA /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		0F1E82701EBB7473008EA8EA /* NewUserViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewUserViewController.swift; sourceTree = "<group>"; };
+		0F1E82721EBB7CFD008EA8EA /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		0F21234B1EDCDF7A00DE5E81 /* MessagesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessagesViewController.swift; sourceTree = "<group>"; };
+		0F2956141EBCB3DE0079CF2B /* SearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		0F2E3F4B1ED339840040A9CA /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		0F370A6E1EF9629600171277 /* blackback.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = blackback.jpg; sourceTree = "<group>"; };
+		0F370A701EF9AAC300171277 /* 001-social-media.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "001-social-media.png"; sourceTree = "<group>"; };
+		0F370A711EF9AAC300171277 /* 002-user.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "002-user.png"; sourceTree = "<group>"; };
+		0F370A721EF9AAC300171277 /* 003-soundcloud.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "003-soundcloud.png"; sourceTree = "<group>"; };
+		0F370A731EF9AAC300171277 /* 004-facebook.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "004-facebook.png"; sourceTree = "<group>"; };
+		0F370A741EF9AAC300171277 /* 005-google-plus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "005-google-plus.png"; sourceTree = "<group>"; };
+		0F370A7A1EF9AC0200171277 /* map.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = map.swift; sourceTree = "<group>"; };
+		0F370A7C1EF9ACF900171277 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		0F3C3F801ECA90F400F38F41 /* person.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = person.png; sourceTree = "<group>"; };
+		0F3C3F861ECA91E400F38F41 /* person30.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = person30.png; sourceTree = "<group>"; };
+		0F4BBDD31EC9F56900E27044 /* UserMessage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserMessage.swift; sourceTree = "<group>"; };
+		0F4F1E481EFD68BB001E0233 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		0F7821E71ED77A3B00FDE72C /* crowd.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = crowd.gif; sourceTree = "<group>"; };
+		0F8E6E731EE9F24C0091A85C /* email.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = email.png; sourceTree = "<group>"; };
+		0F8E6E741EE9F24C0091A85C /* fb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fb.png; sourceTree = "<group>"; };
+		0F8E6E751EE9F24C0091A85C /* google.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = google.png; sourceTree = "<group>"; };
+		0F8E6E791EE9F5C40091A85C /* street.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = street.gif; sourceTree = "<group>"; };
+		0FAF67AE1F011F1500D79993 /* Artist.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Artist.swift; sourceTree = "<group>"; };
+		0FDA40261EDDFC130090B67E /* SelectedMessageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectedMessageViewController.swift; sourceTree = "<group>"; };
+		0FDA40281EDE4BE20090B67E /* ReplyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReplyViewController.swift; sourceTree = "<group>"; };
+		A544F1F522B481617933A15E /* Pods-cliq.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cliq.release.xcconfig"; path = "Pods/Target Support Files/Pods-cliq/Pods-cliq.release.xcconfig"; sourceTree = "<group>"; };
+		EF849CB98B38501FB68809E9 /* Pods_cliq.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_cliq.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA0E7D1109D53AA95D6F2612 /* Pods-cliq.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cliq.debug.xcconfig"; path = "Pods/Target Support Files/Pods-cliq/Pods-cliq.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +105,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0F370A7D1EF9ACF900171277 /* MapKit.framework in Frameworks */,
+				0F2E3F4C1ED339840040A9CA /* FBSDKLoginKit.framework in Frameworks */,
+				5A3384DE60395FCAA258F578 /* Pods_cliq.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +119,8 @@
 			children = (
 				0F1E82561EBB632C008EA8EA /* cliq */,
 				0F1E82551EBB632C008EA8EA /* Products */,
+				1791CA6D2997E7EEBF6F05D0 /* Pods */,
+				C649DE6816767CFFFC4B2203 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +135,91 @@
 		0F1E82561EBB632C008EA8EA /* cliq */ = {
 			isa = PBXGroup;
 			children = (
-				0F1E82571EBB632C008EA8EA /* AppDelegate.swift */,
-				0F1E82591EBB632C008EA8EA /* ViewController.swift */,
+				0F2123481EDCCBC800DE5E81 /* Images */,
+				0F21234A1EDCCC0100DE5E81 /* Classes */,
+				0F2123491EDCCBF200DE5E81 /* VC */,
 				0F1E825B1EBB632C008EA8EA /* Main.storyboard */,
+				0F15A08A1ED4D31400BEF5A2 /* GetsViewController.swift */,
 				0F1E82611EBB632C008EA8EA /* Assets.xcassets */,
 				0F1E82631EBB632C008EA8EA /* LaunchScreen.storyboard */,
 				0F1E82661EBB632C008EA8EA /* Info.plist */,
 				0F1E825E1EBB632C008EA8EA /* cliq.xcdatamodeld */,
+				0F1E826E1EBB6D5A008EA8EA /* GoogleService-Info.plist */,
 			);
 			path = cliq;
+			sourceTree = "<group>";
+		};
+		0F2123481EDCCBC800DE5E81 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				0F370A701EF9AAC300171277 /* 001-social-media.png */,
+				0F370A711EF9AAC300171277 /* 002-user.png */,
+				0F370A721EF9AAC300171277 /* 003-soundcloud.png */,
+				0F370A731EF9AAC300171277 /* 004-facebook.png */,
+				0F370A741EF9AAC300171277 /* 005-google-plus.png */,
+				0F370A6E1EF9629600171277 /* blackback.jpg */,
+				0F156BD71EEB0F630034C1C9 /* fade2.gif */,
+				0F8E6E731EE9F24C0091A85C /* email.png */,
+				0F156BD51EEB0DD90034C1C9 /* fade.gif */,
+				0F8E6E741EE9F24C0091A85C /* fb.png */,
+				0F8E6E751EE9F24C0091A85C /* google.png */,
+				0F18E2431EDF445200FD204B /* We2.gif */,
+				0F7821E71ED77A3B00FDE72C /* crowd.gif */,
+				0F8E6E791EE9F5C40091A85C /* street.gif */,
+				0F3C3F861ECA91E400F38F41 /* person30.png */,
+				0F1CE2CC1ED8CDFD00BD29E1 /* ezgif-2-2a2771c771.gif */,
+				0F1CE2CA1ED8CB4700BD29E1 /* Webp.net-resizeimage.gif */,
+				0F3C3F801ECA90F400F38F41 /* person.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		0F2123491EDCCBF200DE5E81 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				0F1E82591EBB632C008EA8EA /* ViewController.swift */,
+				0F1D78731ECCDED600DE19D2 /* UserInfoViewController.swift */,
+				0F4BBDD31EC9F56900E27044 /* UserMessage.swift */,
+				0F2956141EBCB3DE0079CF2B /* SearchViewController.swift */,
+				0F1E82701EBB7473008EA8EA /* NewUserViewController.swift */,
+				0F1E826C1EBB69A1008EA8EA /* HomeViewController.swift */,
+				0F4F1E481EFD68BB001E0233 /* MapViewController.swift */,
+				0FDA40261EDDFC130090B67E /* SelectedMessageViewController.swift */,
+				0FDA40281EDE4BE20090B67E /* ReplyViewController.swift */,
+				0F21234B1EDCDF7A00DE5E81 /* MessagesViewController.swift */,
+			);
+			name = VC;
+			sourceTree = "<group>";
+		};
+		0F21234A1EDCCC0100DE5E81 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				0F370A7A1EF9AC0200171277 /* map.swift */,
+				0FAF67AE1F011F1500D79993 /* Artist.swift */,
+				0F1E82571EBB632C008EA8EA /* AppDelegate.swift */,
+				0F18D8C61EBD0A1200C23916 /* States.swift */,
+				0F1E82721EBB7CFD008EA8EA /* User.swift */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		1791CA6D2997E7EEBF6F05D0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FA0E7D1109D53AA95D6F2612 /* Pods-cliq.debug.xcconfig */,
+				A544F1F522B481617933A15E /* Pods-cliq.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C649DE6816767CFFFC4B2203 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0F370A7C1EF9ACF900171277 /* MapKit.framework */,
+				0F2E3F4B1ED339840040A9CA /* FBSDKLoginKit.framework */,
+				EF849CB98B38501FB68809E9 /* Pods_cliq.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +229,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0F1E82691EBB632C008EA8EA /* Build configuration list for PBXNativeTarget "cliq" */;
 			buildPhases = (
+				CAD14F318E6A2C089AA430A9 /* [CP] Check Pods Manifest.lock */,
 				0F1E82501EBB632C008EA8EA /* Sources */,
 				0F1E82511EBB632C008EA8EA /* Frameworks */,
 				0F1E82521EBB632C008EA8EA /* Resources */,
+				576DE5C23A638A7180565292 /* [CP] Embed Pods Frameworks */,
+				20577A27B063C803EAA9B317 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -127,13 +285,80 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0F370A791EF9AAC300171277 /* 005-google-plus.png in Resources */,
+				0F8E6E761EE9F24C0091A85C /* email.png in Resources */,
 				0F1E82651EBB632C008EA8EA /* LaunchScreen.storyboard in Resources */,
+				0F1CE2CB1ED8CB4700BD29E1 /* Webp.net-resizeimage.gif in Resources */,
+				0F18E2451EDF445200FD204B /* We2.gif in Resources */,
+				0F370A6F1EF9629600171277 /* blackback.jpg in Resources */,
+				0F370A751EF9AAC300171277 /* 001-social-media.png in Resources */,
+				0F3C3F871ECA91E400F38F41 /* person30.png in Resources */,
+				0F370A781EF9AAC300171277 /* 004-facebook.png in Resources */,
+				0F370A761EF9AAC300171277 /* 002-user.png in Resources */,
+				0F8E6E771EE9F24C0091A85C /* fb.png in Resources */,
+				0F7821E81ED77A3B00FDE72C /* crowd.gif in Resources */,
+				0F156BD61EEB0DD90034C1C9 /* fade.gif in Resources */,
 				0F1E82621EBB632C008EA8EA /* Assets.xcassets in Resources */,
 				0F1E825D1EBB632C008EA8EA /* Main.storyboard in Resources */,
+				0F1CE2CD1ED8CDFD00BD29E1 /* ezgif-2-2a2771c771.gif in Resources */,
+				0F8E6E781EE9F24C0091A85C /* google.png in Resources */,
+				0F8E6E7A1EE9F5C40091A85C /* street.gif in Resources */,
+				0F1E826F1EBB6D5A008EA8EA /* GoogleService-Info.plist in Resources */,
+				0F370A771EF9AAC300171277 /* 003-soundcloud.png in Resources */,
+				0F3C3F811ECA90F400F38F41 /* person.png in Resources */,
+				0F156BD81EEB0F630034C1C9 /* fade2.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		20577A27B063C803EAA9B317 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-cliq/Pods-cliq-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		576DE5C23A638A7180565292 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-cliq/Pods-cliq-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CAD14F318E6A2C089AA430A9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		0F1E82501EBB632C008EA8EA /* Sources */ = {
@@ -141,8 +366,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				0F1E82601EBB632C008EA8EA /* cliq.xcdatamodeld in Sources */,
+				0F4BBDD41EC9F56900E27044 /* UserMessage.swift in Sources */,
+				0F2956151EBCB3DE0079CF2B /* SearchViewController.swift in Sources */,
+				0F370A7B1EF9AC0200171277 /* map.swift in Sources */,
+				0FDA40271EDDFC130090B67E /* SelectedMessageViewController.swift in Sources */,
 				0F1E825A1EBB632C008EA8EA /* ViewController.swift in Sources */,
+				0F15A08B1ED4D31400BEF5A2 /* GetsViewController.swift in Sources */,
+				0F18D8C71EBD0A1200C23916 /* States.swift in Sources */,
+				0FDA40291EDE4BE20090B67E /* ReplyViewController.swift in Sources */,
+				0F21234C1EDCDF7A00DE5E81 /* MessagesViewController.swift in Sources */,
+				0F1E82731EBB7CFD008EA8EA /* User.swift in Sources */,
+				0F1E82711EBB7473008EA8EA /* NewUserViewController.swift in Sources */,
+				0F1D78741ECCDED600DE19D2 /* UserInfoViewController.swift in Sources */,
 				0F1E82581EBB632C008EA8EA /* AppDelegate.swift in Sources */,
+				0FAF67AF1F011F1500D79993 /* Artist.swift in Sources */,
+				0F1E826D1EBB69A1008EA8EA /* HomeViewController.swift in Sources */,
+				0F4F1E491EFD68BB001E0233 /* MapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,9 +502,14 @@
 		};
 		0F1E826A1EBB632C008EA8EA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA0E7D1109D53AA95D6F2612 /* Pods-cliq.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = T6CZ2M36E9;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = cliq/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.madacien.cliq;
@@ -276,9 +520,14 @@
 		};
 		0F1E826B1EBB632C008EA8EA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A544F1F522B481617933A15E /* Pods-cliq.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = T6CZ2M36E9;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = cliq/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.madacien.cliq;
@@ -306,6 +555,7 @@
 				0F1E826B1EBB632C008EA8EA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
